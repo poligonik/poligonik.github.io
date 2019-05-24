@@ -1,0 +1,38 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>The HTML5 Herald</title>
+  <meta name="description" content="The HTML5 Herald">
+  <meta name="author" content="SitePoint">
+  <link rel="stylesheet" href="css/styles.css?v=1.0">
+  <style>
+  video 
+  {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;  
+    z-index: -100;
+  }
+  body
+  {
+    text-align: center;
+  }
+  .logo
+  {
+    margin: 2em;
+  }
+  </style>
+</head>
+
+<body>
+  <img class="logo" src="/static/poligonik_logo.svg"/>
+  <video autoplay muted loop id="myVideo">
+    <source src="/static/showcase.mp4" type="video/mp4">
+  </video>  
+  <script src="js/scripts.js"></script>
+</body>
+</html>
